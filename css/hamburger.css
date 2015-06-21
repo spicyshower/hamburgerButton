@@ -1,0 +1,129 @@
+/*  Transition */
+ .menu1,.menu2,.menu3,.menu4,.menu5,.menu6,.menu7,.menu8,.menu9{
+width:200px; height:5px; background-color:black; position:absolute; 
+}
+ .Fmenu, .Smenu, .Tmenu{
+width: 200px; height:200px; top: 0px; left:80px; position:relative; cursor:pointer;
+}
+.menu1, .menu4, .menu7{
+top:0px; 
+}
+.menu2, .menu5, .menu8{
+top:60px; 
+}
+.menu3, .menu6, .menu9{
+top:120px; 
+}
+
+/*  Transition : First */
+.menu1,
+.menu2,
+.menu3{ 
+  transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out; /* Opera */
+  -moz-transition: all 0.5s ease-out; /* Firefox */
+  -webkit-transition: all 0.5s ease-out; /* GoogleChrome, Safari */
+  -ms-transition: all 0.5s ease-out; /* IE */
+}
+  
+.menuclick1{
+  top:40px;
+  -o-transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+
+.menuclick2{
+opacity:0;
+}
+
+.menuclick3{
+ top:40px;
+  -o-transform: rotate(-225deg);
+  -moz-transform: rotate(-225deg);
+  -webkit-transform: rotate(-225deg);
+  -ms-transform: rotate(-225deg);
+  transform: rotate(-225deg);
+  } 
+  
+  /*  Transition : Second */
+.menu4,
+.menu6{ 
+  transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out; /* Opera */
+  -moz-transition: all 0.4s ease-out; /* Firefox */
+  -webkit-transition: all 0.4s ease-out; /* GoogleChrome, Safari */
+  -ms-transition: all 0.4s ease-out; /* IE */
+}
+
+.menu5{ 
+  transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; /* Opera */
+  -moz-transition: all 0.2s ease-in-out; /* Firefox */
+  -webkit-transition: all 0.2s ease-in-out; /* GoogleChrome, Safari */
+  -ms-transition: all 0.2s ease-in-out; /* IE */
+}
+  
+.menuclick4{
+  top:40px;
+  -o-transform: rotate(585deg);
+  -moz-transform: rotate(585deg);
+  -webkit-transform: rotate(585deg);
+  -ms-transform: rotate(585deg);
+  transform: rotate(585deg);
+}
+
+.menuclick5{
+opacity:0;
+}
+
+.menuclick6{
+ top:40px;
+  -o-transform: rotate(-585deg);
+  -moz-transform: rotate(-585deg);
+  -webkit-transform: rotate(-585deg);
+  -ms-transform: rotate(-585deg);
+  transform: rotate(-585deg);
+  } 
+  
+    /*  Transition : Third */
+.menu7,
+.menu9{ 
+  transition: all 0.8s ease-out;
+  -o-transition: all 0.8s ease-out; /* Opera */
+  -moz-transition: all 0.8s ease-out; /* Firefox */
+  -webkit-transition: all 0.8s ease-out; /* GoogleChrome, Safari */
+  -ms-transition: all 0.8s ease-out; /* IE */
+}
+
+.menu8{ 
+  transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out; /* Opera */
+  -moz-transition: all 0.6s ease-out; /* Firefox */
+  -webkit-transition: all 0.6s ease-out; /* GoogleChrome, Safari */
+  -ms-transition: all 0.6s ease-out; /* IE */
+}
+
+.menuclick7{
+ top:40px;
+  -o-transform: rotate(-315deg);
+  -moz-transform: rotate(-315deg);
+  -webkit-transform: rotate(-315deg);
+  -ms-transform: rotate(-315deg);
+  transform: rotate(-315deg);
+  } 
+
+.menuclick8{
+opacity:0;
+}
+    
+.menuclick9{
+  top:40px;
+  -o-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
