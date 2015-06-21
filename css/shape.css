@@ -1,0 +1,115 @@
+/*  Different shape */
+.shape1, .shape3, .shape4, .shape6{
+width:175px; height:5px; background-color:#fff; position:absolute;
+}
+.shape1, .shape6{
+transform: rotate(45deg);
+}
+.shape3, .shape4{
+transform: rotate(-45deg);
+}
+
+.shape7, .shape9{
+width:200px; height:5px; background-color:#fff; position:absolute;
+}
+.shape7{
+transform: rotate(90deg);
+}
+.shape9{
+transform: rotate(180deg);
+}
+
+ .Fshape, .Sshape, .Tshape{
+width: 200px; height:200px; left:0px; position:relative; cursor:pointer;
+}
+ .Fshape, .Sshape{
+top: 0px;
+}
+.Tshape{
+top: 60px;
+}
+
+.shape1, .shape4, .shape7, .shape9{
+top:0px; 
+}
+.shape3, .shape6{
+top:120px; 
+}
+
+/*  Different shape : First */
+.shape1,
+.shape3{ 
+  transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out; /* Opera */
+  -moz-transition: all 0.5s ease-out; /* Firefox */
+  -webkit-transition: all 0.5s ease-out; /* GoogleChrome, Safari */
+  -ms-transition: all 0.5s ease-out; /* IE */
+}
+  
+.shapeclick1{
+  top:0px;
+  -o-transform: rotate(-225deg);
+  -moz-transform: rotate(-225deg);
+  -webkit-transform: rotate(-225deg);
+  -ms-transform: rotate(-225deg);
+  transform: rotate(-225deg);
+}
+
+.shapeclick3{
+  top:120px;
+  -o-transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+  } 
+  
+  /*  Different shape : Second */
+.shape4,
+.shape6{ 
+  transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out; /* Opera */
+  -moz-transition: all 0.4s ease-out; /* Firefox */
+  -webkit-transition: all 0.4s ease-out; /* GoogleChrome, Safari */
+  -ms-transition: all 0.4s ease-out; /* IE */
+}
+ 
+.shapeclick4{
+  top:0px;
+  -o-transform: rotate(585deg);
+  -moz-transform: rotate(585deg);
+  -webkit-transform: rotate(585deg);
+  -ms-transform: rotate(585deg);
+  transform: rotate(585deg);
+}
+
+.shapeclick6{
+ top:120px;
+  -o-transform: rotate(-585deg);
+  -moz-transform: rotate(-585deg);
+  -webkit-transform: rotate(-585deg);
+  -ms-transform: rotate(-585deg);
+  transform: rotate(-585deg);
+  } 
+  
+    /*  Different shape : Third */
+.shape7,
+.shape9{ 
+  transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out; /* Opera */
+  -moz-transition: all 0.5s ease-in-out; /* Firefox */
+  -webkit-transition: all 0.5s ease-in-out; /* GoogleChrome, Safari */
+  -ms-transition: all 0.5s ease-in-out; /* IE */
+}
+
+.shapeclick7{
+  -o-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -webkit-transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg);
+  transform: rotate(-360deg);
+  } 
+
+.shapeclick9{
+opacity:0;
+}

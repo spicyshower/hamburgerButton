@@ -1,9 +1,9 @@
 /*  Transition */
  .menu1,.menu2,.menu3,.menu4,.menu5,.menu6,.menu7,.menu8,.menu9{
-width:200px; height:5px; background-color:black; position:absolute; 
+width:200px; height:5px; background-color:#233140; position:absolute;
 }
  .Fmenu, .Smenu, .Tmenu{
-width: 200px; height:200px; top: 0px; left:80px; position:relative; cursor:pointer;
+width: 200px; height:200px; top: 0px; left:0px; position:relative; cursor:pointer;
 }
 .menu1, .menu4, .menu7{
 top:0px; 
